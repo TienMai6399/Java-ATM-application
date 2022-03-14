@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="bodybg" stylesheets="@css/AppCss.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BalanceFXMLController">
+   <children>
+      <Label layoutX="309.0" layoutY="57.0" text="Balance">
+         <font>
+            <Font size="54.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6350710900473934" endY="0.24644549763033174" startX="0.2938388625592417">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5607843399047852" green="0.24705882370471954" blue="0.24705882370471954" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.239215686917305" green="0.21960784494876862" blue="0.729411780834198" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="169.0" layoutY="245.0" text="Your account balance is: " textFill="#3d38ba">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="balanceCheck" layoutX="514.0" layoutY="245.0" text="\$" textFill="#3d38ba">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="Back" layoutX="287.0" layoutY="375.0" mnemonicParsing="false" onAction="#GoBack" prefHeight="63.0" prefWidth="226.0" styleClass="Mbutton" stylesheets="@css/AppCss.css" text="Go Back">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

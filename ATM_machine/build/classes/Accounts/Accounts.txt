@@ -1,0 +1,3 @@
+kenzy,TM134679,Tien,Mai,10000.25
+hyouka,zxc147,Mai,Tien,10989.74
+Tmai,blue123,kenzy,ryuu,7000.0

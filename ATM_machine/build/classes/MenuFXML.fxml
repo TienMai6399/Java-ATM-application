@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="menubg" stylesheets="@css/AppCss.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuFXMLController">
+   <children>
+      <Label alignment="CENTER" layoutX="117.0" layoutY="128.0" prefHeight="54.0" prefWidth="566.0" text="Menu" textFill="WHITE">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Button fx:id="DepositClass" layoutX="278.0" layoutY="228.0" mnemonicParsing="false" onAction="#CallDeposit" prefHeight="64.0" prefWidth="245.0" styleClass="Mbutton" stylesheets="@css/AppCss.css" text="Deposit" textAlignment="CENTER">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="WithdrawClass" layoutX="278.0" layoutY="321.0" mnemonicParsing="false" onAction="#CallWithdraw" prefHeight="64.0" prefWidth="245.0" styleClass="Mbutton" stylesheets="@css/AppCss.css" text="Withdraw">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="ExitClass" layoutX="278.0" layoutY="505.0" mnemonicParsing="false" onAction="#CallExit" prefHeight="54.0" prefWidth="245.0" styleClass="Mbutton" stylesheets="@css/AppCss.css" text="Exit">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="BalanceClass" layoutX="278.0" layoutY="418.0" mnemonicParsing="false" onAction="#checkBalance" prefHeight="64.0" prefWidth="245.0" styleClass="Mbutton" stylesheets="@css/AppCss.css" text="Check Balance">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Label fx:id="welcome" alignment="CENTER" layoutX="118.0" layoutY="27.0" prefHeight="100.0" prefWidth="566.0" text="welcome" textFill="WHITE">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="loginbg" stylesheets="@css/AppCss.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginFXMLController">
+   <children>
+      <Label alignment="CENTER" layoutX="9.0" layoutY="61.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Welcome to Tien's ATM Machine" textAlignment="CENTER" textFill="#fffafa" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="9.0">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Uname" alignment="CENTER" layoutX="279.0" layoutY="267.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="51.0" prefWidth="238.0" promptText="Username">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <PasswordField fx:id="Pword" alignment="CENTER" layoutX="279.0" layoutY="332.0" prefHeight="51.0" prefWidth="238.0" promptText="Password">
+         <font>
+            <Font size="24.0" />
+         </font></PasswordField>
+      <Button fx:id="SignIn" alignment="CENTER" layoutX="281.0" layoutY="418.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#checkLogin" prefHeight="46.0" prefWidth="238.0" stylesheets="@css/AppCss.css" text="Sign In" textAlignment="CENTER" />
+      <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="331.0" layoutY="163.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Sign In" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="275.0" text="Username" textFill="#f8f8f8">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="153.0" layoutY="340.0" text="Password" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

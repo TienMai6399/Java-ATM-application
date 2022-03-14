@@ -1,0 +1,49 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 12, 2022, 11:27:28 PM
+    Author     : Tien Mai
+*/
+
+.loginbg{
+    -fx-background-image: url("../Image/bg.png");
+    -fx-background-size: 800 600;
+}
+.menubg{
+    -fx-background-image: url("../Image/background.png");
+    -fx-background-size: 800 600;
+}
+.bodybg{
+    -fx-background-image: url("../Image/functionbg.jpg");
+    -fx-background-size: 800 600;
+}
+.button{
+    -fx-background-color: white;
+    -fx-border-radius: 30 0 0 30;
+}
+.button:hover{
+    -fx-background-color: #808080;
+    -fx-border-radius: 30 0 0 30;
+    -fx-text-fill: white;
+}
+.button:pressed{
+    -fx-background-color: #696969;
+    -fx-border-radius: 30 0 0 30;
+    -fx-text-fill: white;
+}
+.Mbutton{
+    -fx-background-color: #00ccff;
+    -fx-border-radius: 30 0 0 30;
+}
+.Mbutton:hover{
+    -fx-background-color: #3b8bd9;
+    -fx-border-radius: 30 0 0 30;
+    -fx-text-fill: white;
+}
+.Mbutton:pressed{
+    -fx-background-color: #18538d;
+    -fx-border-radius: 30 0 0 30;
+    -fx-text-fill: white;
+}
